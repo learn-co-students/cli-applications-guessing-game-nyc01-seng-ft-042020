@@ -7,7 +7,7 @@ def run_guessing_game
   if user.to_i == computer
     puts "You guessed the correct number!"
   end
-  if user != computer
+  if user.to_i != computer
     puts "Sorry! The computer guessed #{computer}."
   end
 
